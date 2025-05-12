@@ -15,7 +15,7 @@ const Login = () => {
     try {
       // Send login request to the backend
       const response = await axios.post(
-        "http://https://saas-auth-system.vercel.app/login",
+        "https://saas-auth-system.vercel.app/login",
         {
           email,
           password,
